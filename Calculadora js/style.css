@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background: url(./img/Calculadora.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+main h1{
+    font-size: 8rem ;
+    color: #080808;
+    margin-right: 15rem;
+    margin-top: 2rem;
+}
+
+#signoOperacion{
+    margin-left: 24rem;  
+}
+
+#signos2{
+    margin-left: 14rem;
+}
+
+main label{
+    font-size: 80px ;
+    color: #080808;
+    margin-right: 14rem;
+    margin-top: 10rem;
+}
+
+
+input{
+    text-align: center;
+    border-width: 5px;
+    width: 15vw;
+    height: 10vh;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+
+
+main div{
+    margin-top: 3rem;
+    margin-right: 10rem;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+}
+
+
+main h2{
+    margin-top: 2rem;
+    font-size: 4rem;
+    margin-left: 24rem;
+}
+
+
+#operacion2{
+    /* margin-left: 3rem;    */
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 6rem; 
+}
